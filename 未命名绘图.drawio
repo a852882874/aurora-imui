@@ -1,9 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T07:54:10.157Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="HCLk_jUMvNuhIgTTkyh2" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T08:22:33.333Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="bEmuLXnK4vb7iXdApm99" version="18.0.7" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1022" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PdzAP7UdNHpYymywCbmh-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;DataBox Registry Server&lt;br&gt;(元数据Metadata)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="440" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;OSS&lt;br&gt;(数据Data)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-4" value="" style="swimlane;startSize=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="960" y="130" width="260" height="200" as="geometry">
+            <mxRectangle x="670" y="130" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-5" value="Master Node" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-4">
+          <mxGeometry x="75" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;BurstFS Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-4">
+          <mxGeometry x="40" y="10" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-4">
+          <mxGeometry x="40" y="80" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;registry client&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-4">
+          <mxGeometry x="40" y="120" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;BurstFS Server&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-4">
+          <mxGeometry x="45" y="70" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-11" value="" style="swimlane;startSize=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="970" y="420" width="500" height="220" as="geometry">
+            <mxRectangle x="670" y="130" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-12" value="Worker Node1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="35" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;BurstFS Client1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="20" y="10" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="20" y="80" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;registry client1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="20" y="120" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;BurstFS Server1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="20" y="70" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;BurstFS Client2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="300" y="10" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="300" y="80" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;BurstFS Server2&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="300" y="70" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;registry client2&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="300" y="120" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-22" value="Worker Node2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-11">
+          <mxGeometry x="340" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-23" value="matser 管理节点部署方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="960" y="330" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-24" value="多个工作节点部署方案（Worker Node）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="970" y="640" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="130" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-27" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;NVME&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;SSD&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;集群&lt;/span&gt;&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-28" value="BurstFS Server 1" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="465" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-29" value="BurstFS Server 2" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="465" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-30" value="BurstFS Server 3" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="465" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-36" value="" style="swimlane;startSize=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="250" height="120" as="geometry">
+            <mxRectangle x="670" y="130" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-37" value="Worker Node 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-36">
+          <mxGeometry x="50" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-38" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;BurstFS Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-36">
+          <mxGeometry x="30" y="10" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-42" value="" style="swimlane;startSize=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="250" height="120" as="geometry">
+            <mxRectangle x="670" y="130" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-43" value="Worker Node 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-42">
+          <mxGeometry x="50" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-44" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;BurstFS Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-42">
+          <mxGeometry x="30" y="10" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-45" value="" style="swimlane;startSize=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="250" height="120" as="geometry">
+            <mxRectangle x="670" y="130" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-46" value="Worker Node 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-45">
+          <mxGeometry x="50" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdzAP7UdNHpYymywCbmh-47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;BurstFS Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="PdzAP7UdNHpYymywCbmh-45">
+          <mxGeometry x="30" y="10" width="190" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
